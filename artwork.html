@@ -24,7 +24,9 @@ border: 0 solid black;
       }
     .anim {
 
-            @keyframes myAnim {
+            
+    }
+    @keyframes myAnim {
 	0% {
 		opacity: 0;
 		transform: translateY(-50px);
@@ -34,7 +36,6 @@ border: 0 solid black;
 		opacity: 1;
 		transform: translateY(0);
 	}
-    }
   </style>
   
   <div style="display:flex; justify-content: center; gap:6vw; background-color:rgba(0,0,0,0.05); padding-top: 2vh; border-bottom: 2px solid black; ">
@@ -66,10 +67,10 @@ border: 0 solid black;
         ></script>
      
    
-   <img src="Verd.png" style="width: 40vw; height: 40vh;">
-	<h1>"Verd"</h1>
-	<img src="Vyfish.png" style="width: 40vw; height: 40vh;">
-	<h1>"Vyfish"</h1>
+   <img class="anim" src="Verd.png" style="margin-top: 6vh; width: 40vw; height: 40vh;animation: myAnim 2s ease 0s 1 normal forwards;">
+	<h1 style="animation: myAnim 2s ease 0s 1 normal forwards;">"Verd"</h1>
+	<img src="Vyfish.png" style="width: 40vw; height: 40vh;animation: myAnim 2s ease 0s 1 normal forwards;">
+	<h1 style="animation: myAnim 2s ease 0s 1 normal forwards;">"Vyfish"</h1>
    
     
     
