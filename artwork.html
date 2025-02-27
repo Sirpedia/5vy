@@ -1,0 +1,71 @@
+<html>
+  
+  <style>
+    .logo{  color: #000;
+margin-top:0;
+  margin-right:10vw;
+  margin-left: -10vw;
+font-family: "Arial Narrow";
+font-weight: 1;
+font-size: 5vw;
+padding-bottom:1vh;
+background-color: rgba(0,0,0,0);
+border: 0 solid black;
+
+          
+    }
+      
+      .button {
+          
+        background-color: rgba(0,0,0,0);
+        border: 0 solid black;
+             
+	
+      }
+    .anim {
+
+            @keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+    }
+  </style>
+  
+  <div style="display:flex; justify-content: center; gap:6vw; background-color:rgba(0,0,0,0.05); padding-top: 2vh; border-bottom: 2px solid black; ">
+    <a href="">
+    <button class="logo">5vy</button>
+    </a>
+    
+     <a href="">
+    <button class="button" style="font-size:2vw">Headwear</button>
+    </a>
+    
+    <a href="">
+    <button class="button" style="font-size:2vw">Artwork</button>
+    </a>
+    
+    <a href="">
+    <button class="button" style="font-size:2vw">About</button>
+    </a>
+    
+    <a href="">
+    <button class="button" style="font-size:2vw">Contact</button>
+    </a> 
+      
+      
+      
+  </div>  
+<script crossorigin
+        src="https://applepay.cdn-apple.com/jsapi/1.latest/apple-pay-sdk.js"
+        ></script>
+     
+    <h1 class="anim" style="animation: myAnim 2s ease 0s 1 normal forwards;font-size:7vw;margin-top:30vh; font-family: arial narrow; position: absolute; left: 15vw;">nothing to see!</h1>
+    
+    
+</html>
